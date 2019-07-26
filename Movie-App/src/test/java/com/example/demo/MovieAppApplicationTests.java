@@ -10,6 +10,6 @@ class MovieAppApplicationTests {
 	void contextLoads() {
 	}
 	
-	System.out.println(" Spring boot :)");
+
 
 }
