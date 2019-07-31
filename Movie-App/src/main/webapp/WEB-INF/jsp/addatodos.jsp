@@ -9,11 +9,13 @@
 <body>
 
 
-<p> ${todos} </p>
+<p>todoadd for ${name} </p>
 
-<p> Your name is ${name} your pass is ${password}</p>
-
-<p> Click here to add a <a href="/addatodos">todo </a> </p>
+<form method="POST" >
+<label>Description</label>
+<input name="description" type="text" />
+<input type="submit" />
+</form>
 
 
 </body>
