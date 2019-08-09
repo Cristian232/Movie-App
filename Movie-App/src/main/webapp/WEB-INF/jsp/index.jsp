@@ -41,7 +41,7 @@ so index???
 	<form method="POST">
 		<label>Search</label>
 		<input type="text" name="searchText" />
-		<select name="cars" size="4">
+		<select name="category" size="4">
 		    <option value="movie">Movies</option>
 		    <option value="tv-shows">Tv-Shows</option>
 		    <option value="ppl-names">People</option>
