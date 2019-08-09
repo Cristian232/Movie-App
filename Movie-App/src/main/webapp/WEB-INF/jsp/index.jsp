@@ -10,14 +10,20 @@
 
 so index???
 
+1. building the search form , with text and category
 
-<form method="POST" action="/resultcontroller.java">
-	
-	<label>return the hello from themoviedb </label>
-	<input name="subject" value="hello" type="submit" />	
-	
-</form>
+	category
+	- title
+		https://api.themoviedb.org/3/search/movie?api_key=fbcf98951251b4a93b1e8101ed89bd95&
+			query=hello
 
+			
+			
+	- episodes
+	- names
+	- companies
+	- keywords
+	- all
 
 
 </body>

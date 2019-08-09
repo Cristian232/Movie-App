@@ -15,6 +15,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.util.FileCopyUtils;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import com.example.demo.service.reqbuilder;
+
 @SpringBootApplication(scanBasePackages={"com.example.demo"})
 public class MovieAppApplication {
 
@@ -39,7 +41,7 @@ public class MovieAppApplication {
 //		
 		//System.out.println("hello working? =>  "  + status + " ++  " + response.toString());
 		
-		
+		reqbuilder asd = new reqbuilder();
 	}
 
 }

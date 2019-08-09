@@ -17,15 +17,15 @@ public class resultcontroller {
 	
 	
 	
-	@RequestMapping(value = "hello" , method = RequestMethod.POST  ) 
-	public String resultcontrollermes(ModelMap model) {
-		
-		String name = ;
-		
-		if( name.equals("name"))
-		
-		return "hello" ;
-	}
+//	@RequestMapping(value = "hello" , method = RequestMethod.POST  ) 
+//	public String resultcontrollermes(ModelMap model) {
+//		
+//		String name = ;
+//		
+//		if( name.equals("name"))
+//		
+//		return "hello" ;
+//	}
 	
 
 }
