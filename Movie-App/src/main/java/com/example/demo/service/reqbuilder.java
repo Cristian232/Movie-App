@@ -12,7 +12,7 @@ public class reqbuilder {
 		str = new StringBuilder();
 		search = new Search("abc","movie");
 		str.append(search.getSite()+search.getCategory()+"?api_key="+search.getApikey()+"&query="+search.getSeartchtext());
-		System.out.println(str.toString());
+		//System.out.println(str.toString());
 		
 	};
 }
